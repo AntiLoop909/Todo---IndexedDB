@@ -56,10 +56,10 @@ const todoItem = (id,content, date) => {
     let span = document.createElement('span');
 
     li.id = id;
-    li.className = " d-flex m-4 pb-4 w-auto"
+    li.className = "d-flex m-2 pb-4 w-auto"
     span.innerText = content;
     span.className = "text-center pt-3"
-    input.className = "form-control p-3 ms-2 me-2";
+    input.className = "form-control p-2 ms-2 me-2";
     input.type = "datetime-local";
     input.value = date;
     button.className = "btn btn-success p-3"
